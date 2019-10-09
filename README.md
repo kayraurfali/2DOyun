@@ -1,5 +1,5 @@
 # 2DOyun
-Tüm oyun nesnelerinin kaplamaları değişebilir 2d oyun
+The textures of all game objects can be changed
 
 ### TODO
 * All menu's
