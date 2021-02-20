@@ -138,46 +138,12 @@ public class Oyun extends Canvas implements Runnable{
         g.setColor(Color.black);
         g.fillRect(0, 0, getWidth(), getHeight());
         
-        if(yuklendi && System.currentTimeMillis() - baslangic > 1000 && System.currentTimeMillis() - baslangic < 3000){
-            //System.out.println("evet");
-            g.setColor(Color.white);
-            g.setFont(new Font("Arial", 1, 30));
-            g.drawString("Hi monster!", (int)Oyuncu.xPos - 50, (int)Oyuncu.yPos - 100);
-        }
-        
         if(yuklendi && System.currentTimeMillis() - baslangic > 3000 && System.currentTimeMillis() - baslangic < 5500){
             g.setColor(Color.white);
             g.setFont(new Font("Arial", 1, 30));
             g.drawString("Welcome to your worst b-day present.", (int)Oyuncu.xPos - 50, (int)Oyuncu.yPos - 100);
         }
-        
-        if(yuklendi && System.currentTimeMillis() - baslangic > 5500 && System.currentTimeMillis() - baslangic < 8000){
-            g.setColor(Color.white);
-            g.setFont(new Font("Arial", 1, 30));
-            g.drawString("Yup, its my game.", (int)Oyuncu.xPos - 50, (int)Oyuncu.yPos - 100);
-        }
-        
-        if(yuklendi && System.currentTimeMillis() - baslangic > 8000 && System.currentTimeMillis() - baslangic < 11000){
-            g.setColor(Color.white);
-            g.setFont(new Font("Arial", 1, 30));
-            g.drawString("Actually, since this is your present,", (int)Oyuncu.xPos - 50, (int)Oyuncu.yPos - 110);
-            g.drawString("it's now your game.", (int)Oyuncu.xPos - 50, (int)Oyuncu.yPos - 80);
-        }
-        
-        if(yuklendi && System.currentTimeMillis() - baslangic > 11000 && System.currentTimeMillis() - baslangic < 18000){
-            g.setColor(Color.white);
-            g.setFont(new Font("Arial", 1, 30));
-            g.drawString("Please don't progress without my in game text's consent.", (int)Oyuncu.xPos - 50, (int)Oyuncu.yPos - 110);
-            g.drawString("This is really important. :(", (int)Oyuncu.xPos - 50, (int)Oyuncu.yPos - 80);
-        }
-        
-        if(yuklendi && System.currentTimeMillis() - baslangic > 18000 && System.currentTimeMillis() - baslangic < 23000){
-            g.setColor(Color.white);
-            g.setFont(new Font("Arial", 1, 30));
-            g.drawString("Or else you'll fuck up the game experience.", (int)Oyuncu.xPos - 50, (int)Oyuncu.yPos - 110);
-            g.drawString("(what experience you might ask)", (int)Oyuncu.xPos - 50, (int)Oyuncu.yPos - 80);
-        }
-        
+     
         if(yuklendi && System.currentTimeMillis() - baslangic > 23000 && System.currentTimeMillis() - baslangic < 26000){
             g.setColor(Color.white);
             g.setFont(new Font("Arial", 1, 30));
